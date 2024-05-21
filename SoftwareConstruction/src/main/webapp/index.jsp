@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Registration Form Danner Burhan</title>
+  <title>Registration Form Danner Burhan Mohammed</title>
 </head>
 <body>
   <h1>Register Now</h1>
