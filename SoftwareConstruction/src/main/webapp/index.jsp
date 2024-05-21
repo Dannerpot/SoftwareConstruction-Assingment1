@@ -1,19 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Software construction</title>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
 </head>
 <body>
-<% String pairaw = "Pairaw Luqman Ahmed"; %>
-<% String aran = "Aran Adham"; %>
-<% String danner="Danner Burhan"; %>
-<% String hana="Hana Hardy"; %>
-<h1><%= pairaw %></h1>
-<h1><%= aran %></h1>
-<h1><%= danner%></h1>
-<h1><%= hana%></h1>
+  <h1>Register Now</h1>
+  <form action="/register" method="post">  <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" value="Register">
+  </form>
 </body>
 </html>
