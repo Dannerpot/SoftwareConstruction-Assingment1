@@ -5,7 +5,7 @@
   <title>Registration Form Danner Burhan Mohammed</title>
 </head>
 <body>
-  <h1>Register Now</h1>
+  <h1>Registration</h1>
   <form action="/register" method="post">  <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br>
     <label for="email">Email:</label>
